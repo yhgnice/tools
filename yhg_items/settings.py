@@ -49,6 +49,7 @@ INSTALLED_APPS = [
 	'operation',
 	'crispy_forms',
 	'xadmin',
+	'captcha',
 ]
 
 AUTH_USER_MODEL = "users.UserProfile"
@@ -136,3 +137,4 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
 	os.path.join(BASE_DIR, "static"),
 )
+STATIC_ROOT = '/static/'
